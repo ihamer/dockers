@@ -1,1 +1,1 @@
-docker run -t -i --name base senstorm/base bash
+sudo docker run -t -i --name base senstorm/base bash
