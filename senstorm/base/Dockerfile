@@ -11,4 +11,4 @@ RUN apt-get update && apt-get install -y \
 WORKDIR /root
 
 RUN git clone https://github.com/ihamer/dotfiles .dotfiles 
-RUN .dotfiles/bootstrap.sh
+RUN bash .dotfiles/bootstrap.sh
