@@ -1,4 +1,4 @@
-FROM senstorm/base
+FROM profili/base
 
 MAINTAINER <Ivan Hamer>
 
@@ -34,6 +34,5 @@ RUN ln -s /etc/apache2/sites-available/phabricator.conf /etc/apache2/sites-enabl
 EXPOSE 80
 
 WORKDIR /
-COPY user-env ./root
 
 CMD ["/usr/bin/supervisord"]
