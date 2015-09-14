@@ -1,4 +1,4 @@
-FROM profili/base
+FROM senstorm/base
 
 MAINTAINER <Ivan Hamer>
 

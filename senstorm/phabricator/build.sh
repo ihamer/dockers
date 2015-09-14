@@ -1,2 +1,2 @@
-IMAGE_TAG=profili/phabricator
+IMAGE_TAG=senstorm/phabricator
 sudo docker build -t $IMAGE_TAG .
